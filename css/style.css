@@ -1,0 +1,417 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 5000px;
+    z-index: 10;
+}
+.header{
+    width:100%;
+    height:55px;
+    background-color: rgb(36, 55, 73);
+    position: fixed;
+    top: 0;
+    left: 0;
+    opacity: 0.8;
+    cursor: pointer;
+    z-index: 30;
+}
+.fa-home{
+    font-size: 60px;
+    color: rgb(216, 85, 52);
+}
+.list1{
+    float: right;
+    margin-right: 150px;
+    margin-top: 15px;
+}
+.list1 li{
+    list-style:none;
+    display: inline-block;
+    margin-left:  35px ;
+    font-size:20px;
+    margin-top: -5px;
+    padding-left: 10px;
+    color: white;
+    
+}
+.underline{
+    width:25px;
+    height: 2px;
+    margin:2px auto;
+    border: none;
+    background-color:white;
+}
+.home{
+    height: 100vh;
+    width: 100%;
+    background-image: url(../image/photo_5771775536144696568_y\ \(1\).jpg);
+    color: white;
+    position: relative;
+    z-index: 25;
+}
+.home-overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0.7;
+    background-color: rgb(216, 85, 52);
+}
+.home-content{
+    width: 40%;
+    height: 140px;
+    background-color: rgb(253, 103, 57);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    
+}
+.home-title{
+    color: white;
+    font-size: 30px;
+}
+.home-p{
+       margin: 10px 0px;
+       color: rgb(228, 224, 224);
+       letter-spacing: 1px;
+}
+.home-b{
+    width: 120px;
+    padding: 12px 0px;
+    border-radius: 5px;
+    border: 0;
+    font-size: 19px;
+    cursor: pointer;
+}
+.home-a1{
+    text-transform: capitalize;
+    margin-right: 14px;
+}
+.home-a2{
+    background-color: blue;
+    color: cornsilk;
+    text-transform: capitalize;
+}
+.home-a2:hover{
+    background-color: darkgray;
+}
+.home-a1:hover{
+    background-color: darkgray;
+}
+.home2-eman-title{
+    color: black;
+    text-align: center;
+    margin-top: 70px;
+    font-size: 50px;
+}
+.home2-eman-underline{
+    width:45px;
+    height: 4px;
+    margin:5px auto;
+    border: none;
+    background-color:blue;
+}
+.home2-eman{
+    height: 400px;
+    width: 100%;
+    background-color: white ;
+}
+.home2-eman-mariam{
+    width: 80%;
+    height: 233px;
+    margin: auto;
+    margin-top: 50px;
+    background-color:white ;
+    
+}
+.home2-eman-shahd{
+    float: left;
+    width: 30%;
+    background-color:rgb(216, 85, 52) ;
+    text-align: center;
+    position: relative;
+    
+}
+.div8{
+    margin: 0px 5%;
+    
+}
+.home2-eman-shahd-img1{
+    background-color: rgb(216, 85, 52);
+    width: 60%;
+    background-position: center;
+    margin: 0px 20%;
+    position: relative;
+}
+.home2-eman-shahd-img2{
+    background-color:rgb(216, 85, 52);
+    width: 60%;
+    background-position: center;
+    margin: 0px 20%;
+    position: relative;
+}
+.home2-eman-shahd-img3{
+    background-color:rgb(216, 85, 52) ;
+    width: 60%;
+    background-position: center;
+    margin: 0px 20%;
+    position: relative;
+}
+.home2-shahd-img1-icons{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    visibility: hidden;
+}
+.home2-shahd-img1-icons a{
+    display: block;
+    width: 40px;
+    height: 40px;
+    background-color:  white;
+    color:blue ;
+    margin-left: auto;
+}
+.home2-shahd-img1-icons a i {
+    line-height: 40px;
+     font-size: 40px;
+} 
+
+.home2-eman-shahd:hover .home2-shahd-img1-icons{
+    opacity: 1;
+    visibility: visible;
+}
+.home2-eman-shahd-p1{
+text-transform:capitalize;
+}
+.home2-eman-shahd:hover   .home2-eman-shahd-p1{
+    color:white;
+}
+
+.home2-eman-shahd:hover    .home2-eman-shahd-pp2{
+    color:blue;
+}
+.home2-eman-shahd::after{
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 100%;
+    bottom: 0;
+    right: 0;
+    background-color: black;
+    transition: 2s;
+    opacity: 0;
+}
+.home2-eman-shahd:hover::after{
+    width: 100%;
+    height: 100%;
+    opacity: 0.4;
+}
+.home3-hanaa-title{
+    color: black;
+    text-align: center;
+    margin-top: 70px;
+    text-transform: capitalize;
+    font-size: 50px;
+}
+.home3-hanaa-underline{
+    width:45px;
+    height: 4px;
+    margin:10px auto;
+    border: none;
+    background-color:blue;
+   
+}
+.home3{
+    width: 100%;
+    height: 500px;
+    background-color: white ;
+}
+.home3-hanaa-gana{
+    width: 80%;
+    height: 190px;
+    margin: auto;
+    margin-top: 40px;
+    background-color: white;
+}
+.home3-hanaa-omar{
+    float: left;
+    width: 30%;
+    background-color:rgb(216, 85, 52) ;
+    text-align: center;
+    position: relative;
+    
+}
+.div10 {
+    margin: 0px 5%;
+}
+.hanaa1{
+    background-color: white;
+    width: 60%;
+    background-position: center;
+    margin: 0px 20%;
+    position: relative;
+    cursor: pointer;
+}
+.hanaa2{
+    background-color: white;
+    width: 60%;
+    background-position: center;
+    margin: 0px 20%;
+    position: relative;
+    cursor: pointer;
+}
+.hanaa3{
+    background-color: white;
+    width: 50%;
+    background-position: center;
+    margin: 0px 20%;
+    position: relative;
+    cursor: pointer;
+}
+.home3-hanaa-amr{
+    width: 60%;
+    height: 233px;
+    margin: auto;
+    margin-top: 10px;
+    background-color: white;
+}
+.home3-hanaa-amr-basma{
+    float: left;
+    width: 30%;
+    background-color: white ;
+    text-align: center;
+    position: relative;
+    margin-left: 80px;
+}
+.div12{
+    margin: 0px 10%;
+}
+.hanaa4{
+    background-color:white ;
+    width: 60%;
+    background-position: center;
+    margin: 0px 20%;
+    position: relative;
+    cursor: pointer;
+}
+.hanaa5{
+    background-color: white;
+    width: 60%;
+    margin: 0px 20%;
+    background-position: center;
+    position: relative;
+    float: left;
+    cursor: pointer;
+}
+.hanaa1-inform {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    visibility: hidden;
+}
+.hanaa1-icons{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    visibility: hidden;
+}
+.hanaa1-icons {
+    color: blue;
+    margin-top: 50px;
+}
+.hanaa1-inform .hanaa1-title {
+     color: white;
+}
+.hanaa1-p{
+    color: blue;
+}
+
+.home3-hanaa-omar:hover .hanaa1-inform {
+    opacity: 0.8;
+    visibility: visible;
+   
+}
+.home3-hanaa-omar:hover .hanaa1-icons {
+    opacity: 0.7;
+    visibility: visible;
+    
+}
+.home3-hanaa-amr-basma:hover .hanaa1-inform {
+    opacity: 0.8;
+    visibility: visible;
+    
+}
+.home3-hanaa-amr-basma:hover .hanaa1-icons{
+    opacity: 0.7;
+    visibility: visible;
+}
+.home4{
+    width: 100%;
+    height: 500px;
+    background-color: white;
+    perspective: 700px;
+}
+.home4-section , .home4-font , .home4-back{
+    width: 270px;
+    height: 300px;
+    background-color: rgb(216, 85, 52) ;
+}
+.home4-section {
+    cursor:pointer;
+    margin: auto;
+    position: relative;
+    transition: 2s;
+    transform-style: preserve-3d;
+    color: white;
+    margin-top: 70px;
+}
+.home4-font{
+    z-index: 1;
+    backface-visibility: hidden;
+    background-image: url(../image/why\ us.jpg);
+    background-size: cover;
+    
+}
+.home4-font , .home4-back{
+    position: absolute;
+}
+.home4-section:hover{
+    transform: rotateY(180deg);
+}
+.home4-back{
+    transform: rotateY(180deg);
+}
+.home5{
+    width: 60%;
+    height: 100px;
+    background-color:white;
+    margin: auto;
+    border-radius: 10px;
+}
+.home5-icons{
+    color: white;
+    font-size: 70px;
+    margin-left: 20px;
+}
+.home5-title{
+    color: white;
+    background-color:rgb(216, 85, 52)  ;
+}
